@@ -17,8 +17,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
+								<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>
 							</div>
 						</article>
 					</div>
@@ -30,9 +30,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 					<div class="col-md-4">
@@ -43,9 +42,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 				</div>
@@ -58,9 +56,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 					<div class="col-md-4">
@@ -71,9 +68,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 					<div class="col-md-4">
@@ -84,9 +80,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 				</div>
@@ -99,9 +94,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 					<div class="col-md-4">
@@ -112,9 +106,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 					<div class="col-md-4">
@@ -125,9 +118,8 @@
 								</div>
 							</div>
 							<div class="art-content">
-								<h3>Image Format</h3>
-								<p>This format perfectly fits in case you need only a single image for your post display. Use Featured image option to add image to the...</p>
-							</div>
+							<h3>Place Holder Text</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
 						</article>
 					</div>
 				</div>

@@ -100,8 +100,8 @@ if(isset($_POST['submitcontact']))
 							<div class="col-md-4 box-item">
 								<h3>Contact Info</h3>
 								<span>SED UT PERSPICIATIS UNDE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM ACCUSANTIUM DOLOREMQUE LAUDANTIUM, TOTAM REM APERIAM.</span><br> <br>
-								<p>JL.Kemacetan timur no.23. block.Q3<br>
-									Jakarta-Indonesia</p>
+								<p>Assiut University Fifth gate.<br>
+									Assiut Egypt</p>
 								   <p>+2 0	88 888 90 <br>
 									+2 088 88891</p>
 								<p>info@diagnify.com</p>

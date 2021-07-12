@@ -1,4 +1,19 @@
-	<?php include 'header.php';?>
+
+<?php
+session_start();
+$_SESSION["counter"] = 0;
+include 'header.php';
+include "connection.php";
+
+$sql = "SELECT * FROM symptom";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+	while($row = $result->fetch_assoc()) {
+		$_SESSION[$row["name"]] = 0;
+	}
+}
+
+?>
 	
 	
 	<div class="slide">
@@ -96,9 +111,9 @@
 				<div class="col-md-4">	
 					<h4>The List Links</h4>
 					<ul class="list-unstyled">
-						<li><a href="#"><i class="fa fa-check"></i> Flu tests</a></li>
+						<li><a href="#"><i class="fa fa-check"></i> Eyes checks</a></li>
 						<li><a href="#"><i class="fa fa-check"></i> Glucose</a></li>
-						<li><a href="#"><i class="fa fa-check"></i> Semen Analysis</a></li>
+						<li><a href="#"><i class="fa fa-check"></i> Bowel Analysis</a></li>
 						<li><a href="#"><i class="fa fa-check"></i> Uric Acid</a></li>
 						<li><a href="#"><i class="fa fa-check"></i> Complete Blood Count</a></li>
 						<li><a href="#"><i class="fa fa-check"></i> Hemoglobin or Glycohemoglobin</a></li>
@@ -107,15 +122,7 @@
 			</div>
 		</section>
 	
-		<section class="box-content box-4 container box-style-2 box-shadow">
-			<div class="row">
-				<div class="col-md-12">
-					<h3>Offering a wide range of laboratory services</h3>
-					<p>Our fully computerised laboratory group offers a high quality, cost-effective service and clinical expertise to local general practitioners and other trusts, hospitals and healthcare providers. Our innovative laboratory services enhance patient health.</p>
-					<a class="btn btn-lg btn-red box-shadow" href="#">Read More</a>
-				</div>
-			</div>
-		</section>
+		
 		
 		<!-- ////////////Content Box 05 -->
 		<section class="box-content container box-5 box-shadow" >
