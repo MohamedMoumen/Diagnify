@@ -31,19 +31,12 @@ foreach ($_SESSION as $key => $value) {
             // output data of each row
             while ($row = $result->fetch_assoc()) {
                 // echo $row['name'] . ' ';
-                // $diseases[$row['name']] += 1 ;
-                if($check === 0) {
-                    $diseases = array($row['name']=>1);
-                    $check = 1;
+                if(isset($diseases[$row['name']])){
+                    $diseases[$row['name']] += 1 ;
                 } else {
-                    foreach($diseases as $key => $value) {
-                        if($key === $row['name']) {
-                            $value ++;
-                        } else {
-                            
-                        }
-                    }
+                    $diseases[$row['name']] = 1;
                 }
+                
             }
         } else {
             echo "0 results";
