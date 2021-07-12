@@ -122,7 +122,15 @@ if ($result->num_rows > 0) {
 			</div>
 		</section>
 	
-		
+		<section class="box-content box-4 container box-style-2 box-shadow">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Offering a wide range of laboratory services</h3>
+					<p>Our fully computerised laboratory group offers a high quality, cost-effective service and clinical expertise to local general practitioners and other trusts, hospitals and healthcare providers. Our innovative laboratory services enhance patient health.</p>
+					<a class="btn btn-lg btn-red box-shadow" href="#">Read More</a>
+				</div>
+			</div>
+		</section>
 		
 		<!-- ////////////Content Box 05 -->
 		<section class="box-content container box-5 box-shadow" >

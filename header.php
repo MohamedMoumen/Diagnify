@@ -58,7 +58,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#">
-					Welcome to us !
+					Welcome
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -70,11 +70,12 @@
                         <a class="page-scroll" href="diagnose.php">Diagnose</a>
                     </li>
 					<li>
-                        <a class="page-scroll" href="single.php">About</a>
+                        <a class="page-scroll" href="common.php">Common diseases</a>
                     </li>
 					<li>
-                        <a class="page-scroll" href="service.php">Services</a>
+                        <a class="page-scroll" href="single.php">About</a>
                     </li>
+			
                     <li>
                         <a class="page-scroll" href="archive.php">Blogs</a>
                     </li>

@@ -1,6 +1,7 @@
 <?php 
 session_start();
 include "connection.php";
+include 'header.php';
 
 $sql = "SELECT * FROM symptom";
 $result = $conn->query($sql);
@@ -19,6 +20,7 @@ if ($result->num_rows > 0) {
 }
 $diseases = array();
 $check = 0;
+
 foreach ($_SESSION as $key => $value) {
     if ($value === 1) {
         $sql = "select disease.name from disease join attached
@@ -43,16 +45,50 @@ foreach ($_SESSION as $key => $value) {
         }
     }
 }
-print_r($diseases);
+
+?>
+
+<div id="page-content" class="single-page">
+		<div class="container">
+			<div id="main-content">
+				<div class="row">
+					<article class="box-shadow">
+						<div class="art-header">
+
+                            <?php
+                            foreach($diseases as $key => $value){
+                                $sql = "select name , critical , description , treatment from disease where disease.name = '$key';";
+                                $result = $conn->query($sql);
+                                if ($result->num_rows > 0) { 
+                                   while ($row = $result->fetch_assoc()){
+                                       echo "<h3>You may have <i>" . $row['name'] . "</h3></i><br>";
+                                       echo "<h4>" . $row['description'] ."</h4><br>";
+                                       if($row['critical']===1){
+                                           echo "<h4>It's a serious condition you should go to a doctor</h4> <br>";
+                                       }else{
+                                        echo "<h4>Don't worry it's not a serious condition  </h4><br>";
+                                       }
+                                       echo "<h3>The treatment : <i>" . $row['treatment'] ."</i></h3>";
+                                       echo "<hr>";
+                                   }  
+                               }
+                               else {
+                                   echo "0 results";
+                               }
+                            }
+                            
+                            session_unset();
+                            session_destroy();
+                            ?>
+
+                        </div>
+					</article>
+				</div>
+			</div>
+		</div>
 
 
 
-session_unset();
-session_destroy();
-
-
-// {
-//     dis1 : 3,
-//     dis2 : 2,
-//     dis3 : 1
-// }
+<?php
+include 'footer.php';
+?>

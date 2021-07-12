@@ -12,7 +12,7 @@
 					<article class="box-shadow">
 						<div class="art-header">
 							<a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
-							<div class="info">By <a href="#">Admin</a> June 12, 2015 - 0 Comments</div>
+							<div class="info">By <a href="#">Mohamed Moumen</a> June 12, 2021 - 0 Comments</div>
 						</div>
 						<div class="art-content">
 							<img src="images/7.jpg" />
@@ -23,7 +23,7 @@
 					<article class="box-shadow">
 						<div class="art-header">
 							<a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
-							<div class="info">By <a href="#">Admin</a> June 12, 2015 - 0 Comments</div>
+							<div class="info">By <a href="#">Shymaa Kamal</a> June 12, 2021 - 0 Comments</div>
 						</div>
 						<div class="art-content">
 							<img src="images/8.jpg" />
@@ -34,7 +34,7 @@
 					<article class="box-shadow">
 						<div class="art-header">
 							<a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
-							<div class="info">By <a href="#">Admin</a> June 12, 2015 - 0 Comments</div>
+							<div class="info">By <a href="#">Joseph</a> June 12, 2021 - 0 Comments</div>
 						</div>
 						<div class="art-content">
 							<img src="images/9.jpg" />
