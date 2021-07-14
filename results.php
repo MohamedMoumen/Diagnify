@@ -77,6 +77,11 @@ foreach ($_SESSION as $key => $value) {
                                }
                             }
                             
+                            if(empty($diseases)){
+                                echo "<h3> It seems you have a good vision </h3>";   
+                            }
+
+
                             session_unset();
                             session_destroy();
                             ?>
