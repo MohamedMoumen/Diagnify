@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <div class="art-content">
-                            <h3>Child care</h3>
+                            <h3><a href="https://www.ccrcca.org/">Child care</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>
                         </div>
                     </article>
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="art-content">
-                        <h3>Covid-19</h3>
+                        <h3><a href="https://www.who.int/ar/emergencies/diseases/novel-coronavirus-2019">Covid-19</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
                     </article>
                 </div>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="art-content">
-                        <h3>Health care</h3>
+                        <h3><a href="https://www.healthcare.gov/">Health care</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ...</p>							</div>
                     </article>
                 </div>

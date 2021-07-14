@@ -143,7 +143,7 @@ if ($result->num_rows > 0) {
 						<div class="box-comment">
 							Your company understands today’s requirements, but that’s not what makes you stand apart. You also understand today’s business world and how to keep customers happy.
 						</div>
-						<a class="author" href="#">Timmy</a>
+						<a class="author" href="#">Mohamed</a>
 					</div>
 				</div>
 				<div class="row item">
@@ -154,7 +154,7 @@ if ($result->num_rows > 0) {
 						<div class="box-comment">
 							Your company understands today’s requirements, but that’s not what makes you stand apart. You also understand today’s business world and how to keep customers happy.
 						</div>
-						<a class="author" href="#">Timmy</a>
+						<a class="author" href="#">Joseph</a>
 					</div>
 				</div>
 			</div>
